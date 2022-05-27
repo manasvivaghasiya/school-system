@@ -1,0 +1,109 @@
+.nav{
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    background: #f7f7f7;
+}
+
+.menu{
+    display: none;
+}
+.Nav-name{
+    color: grey;
+    margin: 0;
+}
+.admin-image{
+    height: 47px;
+    
+}
+.header-icon{
+    font-size: x-large;
+    margin-left: 12px;
+
+}
+.iceland-flag{
+    height: 1cm;
+    margin-right: 17px;
+    border-radius: 10px;
+}
+.language{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    width:100%;
+    margin-top: 5px;
+}
+// .header-title{
+// }
+.header-info{
+ display: flex;
+ justify-content: end;
+
+}
+.admin-profile{
+    display: flex;
+    justify-content: end;
+    margin-left: 6px;
+}
+.admin-name{
+    margin-left: 13px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 15px;
+}
+
+.dropdown-toggle{
+    border-radius: 50%;
+    height: 0.5cm;
+    margin-top: 18px;
+    margin-left: 3px;
+    padding: 5px;
+}
+.a-name {
+    font-weight: 500;
+    font-size: medium;
+}
+.drop-down{
+    height: 0.5cm;
+    width: 21px;
+    margin-top: 17px;
+    margin-left: 6px;
+}
+
+@media (max-width: 770px) {
+    .menu{
+        display: block;
+    }
+    .icons{
+        display: flex;
+    }
+    .admin-name{
+        font-size: small;
+    }
+    
+}
+@media (max-width: 712px) {
+   
+    .admin-name{
+        display:none;
+    }
+
+   
+   
+}
+@media (max-width: 992px) {
+    .student-name{
+        display:none;
+    }
+    .icons{
+        display: flex;
+    }
+}

@@ -1,8 +1,34 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DashboardMainComponent } from './components/dashboard-main/dashboard-main.component';
+import { DashboardComponent } from './components/pages/dashboard/dashboard.component';
+import { FullLayoutComponent } from './layout/full-layout/full-layout.component';
 
 const routes: Routes = [
-  
+  {
+    path:'app',
+    component:FullLayoutComponent,
+    children:[
+      {
+        path:'dashboard',
+        component:DashboardMainComponent,
+      },
+      // {
+      //   path:'header',
+      //   component:HeaderComponent,
+      // },
+      // {
+      //   path:'side-bar',
+      //   component:SideBarComponent,
+      // },
+    ],
+  },
+  {
+    path:'',
+    component:FullLayoutComponent,
+    loadChildren: () =>import('./components/pages/pages.module').then(x => x.PagesModule)
+  },
+
 ];
 
 @NgModule({
