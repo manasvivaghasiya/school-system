@@ -7,6 +7,9 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  languages:boolean=false;
+  logout:boolean=false;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -15,4 +18,10 @@ export class HeaderComponent implements OnInit {
    
 
   }
+  flagImg(){
+    debugger
+    this.languages=true;
+  }
+
+
 }

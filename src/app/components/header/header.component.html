@@ -10,9 +10,16 @@
                
             </div>
             <div class=" header-info col-9 col-sm-">
-                <div class="d-flex mt-2">
+                <div class="d-flex mt-2 dropdown" (click)="flagImg()">
                     <img src="../../assets/iceland.png" class="iceland-flag" alt="">
                     <h1 class="language">English</h1>
+                   
+                    <div class="dropdown-content">
+                        <a href="#"  ><img src="../../assets/korea.png" alt="" class="flag">korea</a>
+                        <a href="#" ><img src="../../assets/germany.png" alt=""  class="flag">germany</a>
+                        <a href="#" ><img src="../../assets/japan.png" alt=""  class="flag">korea</a>
+
+                        </div>
                     <div class="mt-1 icons">
                         <i class="bi bi-bell header-icon "></i>
                         <i class="bi bi-envelope header-icon mr-3" ></i>
@@ -32,7 +39,11 @@
                         
                       
                     </div>
-                   <img src="../../assets/drop-down.png" class="drop-down" alt="">
+                    <div >
+                        <img src="../../assets/drop-down.png" class="drop-down"   alt="">
+
+                    </div>
+                   
                 
                 </div>
             </div>
