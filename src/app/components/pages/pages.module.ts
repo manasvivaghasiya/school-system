@@ -11,6 +11,7 @@ import { DepartmentComponent } from './department/department.component';
 import { StaffComponent } from './staff/staff.component';
 
 
+
 @NgModule({
   declarations: [
     DashboardComponent,
@@ -24,7 +25,7 @@ import { StaffComponent } from './staff/staff.component';
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
   ]
 })
 export class PagesModule { }

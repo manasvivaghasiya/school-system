@@ -23,7 +23,7 @@
 
 .main-section{
     width: 222px;
-    height: 100vh;
+    // height: 100vh;
 }
 
 .logo{
@@ -169,7 +169,7 @@ i{
       justify-content: center;
   }
 
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .main-section {
         display: none;
     }

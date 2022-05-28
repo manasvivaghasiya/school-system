@@ -123,10 +123,7 @@ line-height: 15px;
    
     .admin-name{
         display:none;
-    }
-
-   
-   
+    }  
 }
 @media (max-width: 992px) {
     .student-name{
@@ -135,4 +132,11 @@ line-height: 15px;
     .icons{
         display: flex;
     }
+}
+
+@media (max-width: 489px) {
+    .header-info{
+        display:flex;
+        justify-content: flex-start;
+}
 }

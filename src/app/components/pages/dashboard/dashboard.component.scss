@@ -1,4 +1,149 @@
 .main-dashboard{
-    background-color: #F9F9FB;
+    background-color:#f5f5f9;
     height: 100vh;
+    border-radius: 40px 0px 0px 0px;
+    overflow:scroll ;
+}
+.dashboard{
+    margin-left: 3px;
+}
+// -----progress--section-----
+.progress-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.total-student{
+    display: flex;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    width: fit-content;
+}
+.p-title{
+    margin: 3px;
+    font-weight: 500;
+}
+.total-number{
+    margin: 3px;
+    color: #3F8DFD;;
+}
+.new-number{
+    margin: 3px;
+color:  #803FFD;;
+}
+.courses-number{
+    margin: 3px;
+color:  #C73FFD;;
+}
+.visitors-number{
+    margin: 3px;
+color: #FD683F;;
+}
+
+// ------sport-list--section---
+.student-sport-list{
+    padding: 20px 30px;
+ 
+}
+.list-table{
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    background-color: white;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 13px 0px 11px;
+}
+.list-icon{
+    margin-right: 15px;
+}
+.sport{
+    margin: 0;
+}
+.print{
+    background-color: #f5f5f9;
+}
+th{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.student-list{
+    align-items:center ;
+    margin-top: 15px;
+}
+.table{
+    text-align: center;
+    margin: 0;
+}
+.actionOne{
+    background-color: #FD9C40;
+    color: white;
+}
+.table-thead{
+    background-color:#f5f5f9;
+    margin-top: 6px;
+}
+.list-name{
+    color:
+    #3F8DFD;
+}
+// ----chart-----
+body {
+    font-family: Roboto, sans-serif;
+  }
+  
+ #chart{
+    padding: 0px 47px;
+ }
+  .apexcharts-toolbar{
+    display:none;
+  }
+  .list-chart{
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+}
+.student-chart-list{
+    padding: 20px 30px;
+}
+.chart-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 13px 0px 11px;
+}
+@media (max-width: 975px) {
+    .total-student{
+       margin-bottom: 12px;
+}
+.progress-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 33px;
+}
+}
+
+@media (max-width: 521px) {
+    .progress-section{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    
+        padding: 20px 30px;
+    }
+}
+
+@media (max-width: 510px) {
+    .total-student{
+        display: flex;
+        border: 1px solid #dddddd;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: white;
+}
 }
